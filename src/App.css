@@ -4,20 +4,89 @@ body {
   background: url(../src/image/pexels-pixabay-414660.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  font-family: 'Oleo Script Swash Caps', cursive;
-  font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
 
 .App__button {
   position: absolute;
   top: calc(100vh / 2);
-  left: calc(100vw / 2 - 10vh);
-  width: 20vh;
-  height: 20vh;
+  left: calc(100vw / 2 - 50px);
+  width: 100px;
+  height: 100px;
   background-color: rgb(237, 229, 72);
-  border-radius: 5rem;
+  border-radius: 50%;
   margin: 0;
   border: none;
   font-family: 'Oleo Script Swash Caps', cursive;
   font-family: 'Open Sans', sans-serif;
+  z-index: 1;
+}
+
+.lupen-1 {
+  position: absolute;
+  top: calc(100vh / 2 - 2px);
+  left: calc(100vw / 2 - 198px);
+  width: 150px;
+  height: 100px;
+}
+
+.lupen-2 {
+  position: absolute;
+  top: calc(100vh / 2 - 110px);
+  left: calc(100vw / 2 - 164px);
+  width: 140px;
+  height: 140px;
+}
+
+.lupen-3 {
+  position: absolute;
+  top: calc(100vh / 2 - 147px);
+  left: calc(100vw / 2 - 50px);
+  width: 100px;
+  height: 150px;
+
+}
+
+.lupen-4 {
+  position: absolute;
+  top: calc(100vh / 2 - 112px);
+  left: calc(100vw / 2 + 24px);
+  width: 140px;
+  height: 140px;
+}
+
+.lupen-5 {
+  position: absolute;
+  top: calc(100vh / 2 + 2px);
+  left: calc(100vw / 2 + 45px);
+  width: 150px;
+  height: 100px;
+}
+
+.lupen-6 {
+  position: absolute;
+  top: calc(100vh / 2 + 69px);
+  left: calc(100vw / 2 + 22px);
+  width: 140px;
+  height: 140px;
+}
+
+.lupen-7 {
+  position: absolute;
+  top: calc(100vh / 2 - 2px);
+  left: calc(100vw / 2 - 198px);
+  width: 150px;
+  height: 100px;
+}
+
+.lupen-8 {
+  position: absolute;
+  top: calc(100vh / 2 - 2px);
+  left: calc(100vw / 2 - 198px);
+  width: 150px;
+  height: 100px;
 }

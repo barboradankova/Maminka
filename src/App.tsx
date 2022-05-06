@@ -13,6 +13,7 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div className="App">
+
       <button className="App__button" onClick={() => setCount(count + 1)}>
         Klikni
       </button>
@@ -26,6 +27,7 @@ function App() {
       {count >= 8 && <img className="lupen-8" alt="lupen" src={lupen8} />}
       {count >= 9 && <h1>Krásny deň matiek!</h1>}
     </div>
+
   );
 }
 
