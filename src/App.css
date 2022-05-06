@@ -8,6 +8,7 @@ body {
 
 h1 {
   font-family: 'Dancing Script', cursive;
+  margin: 0;
 }
 
 
@@ -36,16 +37,16 @@ h1 {
 
 .lupen-2 {
   position: absolute;
-  top: calc(100vh / 2 - 110px);
-  left: calc(100vw / 2 - 164px);
+  top: calc(100vh / 2 - 108px);
+  left: calc(100vw / 2 - 162px);
   width: 140px;
   height: 140px;
 }
 
 .lupen-3 {
   position: absolute;
-  top: calc(100vh / 2 - 147px);
-  left: calc(100vw / 2 - 50px);
+  top: calc(100vh / 2 - 141px);
+  left: calc(100vw / 2 - 48px);
   width: 100px;
   height: 150px;
 
@@ -53,8 +54,8 @@ h1 {
 
 .lupen-4 {
   position: absolute;
-  top: calc(100vh / 2 - 112px);
-  left: calc(100vw / 2 + 24px);
+  top: calc(100vh / 2 - 108px);
+  left: calc(100vw / 2 + 18px);
   width: 140px;
   height: 140px;
 }
@@ -77,16 +78,16 @@ h1 {
 
 .lupen-7 {
   position: absolute;
-  top: calc(100vh / 2 - 2px);
-  left: calc(100vw / 2 - 198px);
-  width: 150px;
-  height: 100px;
+  top: calc(100vh / 2 + 90px);
+  left: calc(100vw / 2 - 54px);
+  width: 100px;
+  height: 150px;
 }
 
 .lupen-8 {
   position: absolute;
-  top: calc(100vh / 2 - 2px);
-  left: calc(100vw / 2 - 198px);
-  width: 150px;
-  height: 100px;
+  top: calc(100vh / 2 + 70px);
+  left: calc(100vw / 2 - 161px);
+  width: 140px;
+  height: 140px;
 }
