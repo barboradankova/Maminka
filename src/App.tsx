@@ -13,8 +13,8 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div className="App">
-      <button className="App__button" onClick={() => setCount(count + 1)}>
-        Ťuk
+       <button className="App__button" onClick={() => setCount(count + 1)}>
+       {count < 9 &&<span>Ťuk</span>}
       </button>
       {count >= 1 && <img className="lupen-1" alt="lupen" src={lupen1} />}
       {count >= 2 && <img className="lupen-2" alt="lupen" src={lupen2} />}
@@ -25,7 +25,7 @@ function App() {
       {count >= 7 && <img className="lupen-7" alt="lupen" src={lupen7} />}
       {count >= 8 && <img className="lupen-8" alt="lupen" src={lupen8} />}
       {count >= 9 && (
-        <>
+        <div className="text">
           <h1>
             Pre moju maminku posielam kvetinku,
             <br />
@@ -33,7 +33,7 @@ function App() {
             <br />
           </h1>
           <h2> Krásny deň matiek!</h2>
-        </>
+        </div>
       )}
     </div>
   );
